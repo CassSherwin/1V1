@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/fvq1stw.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://kit.fontawesome.com/40e965689f.js" crossorigin="anonymous"></script>
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/40e965689f.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" /> 
+    <link href="news.css" rel="stylesheet" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+</style>
+
+
+<!-- Custom styles for this template -->
+<link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="blog.css" rel="stylesheet">
+    
+    <!--  <link href="index.css" rel="stylesheet" /> -->
+  <title>1V1RACES News</title>
+</head>
+<body>
+    <header id="athletenavhead" class="d-flex flex-wrap align-items-left justify-content-center justify-content-md-between py-3 mb-4 navhead">
+      <a href="/" class="d-flex align-items-left mb-1 mb-md-0 me-md-auto text-dark text-decoration-none" height: "40" width: "40">
+        <img class="logoimg" src="pics/logo.jpg" alt="1 V 1 logo with lightening bolt" height: "40" width: "40">     
+      </a>
+  
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 headernav">
+          <li><a href="index.html" class="nav-link px-2">Home</a></li>
+          <li><a href="rankings.html" class="nav-link px-2">Rankings</a></li>
+          <li><a href="videos.html" class="nav-link px-2">Videos</a></li>
+          <li><a href="athletes.html" class="nav-link px-2">Athletes</a></li>
+          <li><a href="news.html" class="nav-link px-2 link-secondary">Stories</a></li>
+          <li><a href="shop.html" class="nav-link px-2">Shop</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end navend">
+          <a href="login.html"role="button" type="submit" class="btn btn-outline-primary me-2">Login</a>
+          <a href="signup.html"role="button" type="submit" class="btn btn-outline-primary me-2">Sign Up</a>
+        </div>
+     
+</header>
+<!--MAIN BODY-->
+<div class="nav-scroller py-1 mb-2 newsdiv">
+  <nav class="nav d-flex justify-content-between newsnav">
+    <a class="p-2" href="#">U.S.</a>
+    <a class="p-2" href="#">Europe</a>
+    <a class="p-2" href="#">College</a>
+    <a class="p-2" href="#">Distance</a>
+    <a class="p-2" href="#">Sprints</a>
+    <a class="p-2" href="#">Throws</a>
+    <a class="p-2" href="#">Jumps</a>
+    <a class="p-2" href="#">Coaching</a>
+    <a class="p-2" href="#">Health</a>
+    <a class="p-2" href="#">Style</a>
+    <a class="p-2" href="#">Opinion</a>
+  </nav>
+</div>
+</div>
+
+<main class="container">
+  <div class="row mb-2 p-4 p-md-5 mb-4 rounded text-bg-dark tophead">
+
+  <div class="col-md-6 px-0">
+    <h1 class="display-4 fst-italic">1 V 1 Putting the Power into the Hands of Athletes and Fans</h1>
+    <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+    <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+  </div>
+    <div class="col-md-6 px-0">
+    <svg class="bd-placeholder-img rounded" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><image width="100%" height="100%" href="pics/menrace2.jpg" preserveAspectRatio="none";/></svg>
+  </div>
+
+</div>
+
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-primary">College</strong>
+        <h3 class="mb-0">Featured post</h3>
+        <div class="mb-1 text-muted">Jan 12</div>
+        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="stretched-link">Continue reading</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><image href="pics/menrace1.jpg" width="100%" height="100%" preserveAspectRatio="none"/></svg>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-success">Europe</strong>
+        <h3 class="mb-0">Post title</h3>
+        <div class="mb-1 text-muted">Nov 11</div>
+        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="stretched-link">Continue reading</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><image width="100%" height="100%" preserveAspectRatio="none" href="pics/womenrace2.jpg" /></svg>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-5">
+  <div class="col-md-8">
+    <h3 class="pb-4 mb-4 fst-italic border-bottom">
+      From the Track
+    </h3>
+
+    <article class="blog-post">
+      <h2 class="blog-post-title mb-1">Running Fast</h2>
+      <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+
+      <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+      <hr>
+      <article class="blog-post">
+        <h2 class="blog-post-title mb-1">Running Slow</h2>
+        <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+  
+        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+        <hr>
+        <article class="blog-post">
+          <h2 class="blog-post-title mb-1">Running Far</h2>
+          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+    
+          <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+          <hr>
+          <article class="blog-post">
+            <h2 class="blog-post-title mb-1">Running</h2>
+            <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+      
+            <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+            <hr>
+            <article class="blog-post">
+              <h2 class="blog-post-title mb-1">Best running Shoes</h2>
+              <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+        
+              <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+              <hr>
+      
+              <div class="row mb-2">
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-primary">U.S.</strong>
+                      <h3 class="mb-0">Featured post</h3>
+                      <div class="mb-1 text-muted">Jan 12</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><image href="pics/pic4.jpg" width="100%" height="100%" preserveAspectRatio="none" /></svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-success">Coaching</strong>
+                      <h3 class="mb-0">Post title</h3>
+                      <div class="mb-1 text-muted">Nov 11</div>
+                      <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><image href="pics/womenrace2.jpg" width="100%" height="100%" preserveAspectRatio="none"/></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            
+
+              <div class="row mb-2">
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-primary">Throwing</strong>
+                      <h3 class="mb-0">Featured post</h3>
+                      <div class="mb-1 text-muted">Jan 12</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><image href="pics/polevault.jpg" width="100%" height="100%" preserveAspectRatio="none"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-success">Jumping</strong>
+                      <h3 class="mb-0">Post title</h3>
+                      <div class="mb-1 text-muted">Nov 11</div>
+                      <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><image href="pics/hijumper.jpg" width="100%" height="100%" preserveAspectRatio="none"/></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="row g-5">
+                <div class="col-md-8">
+                  <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    From the Field
+                  </h3>
+                  </div>
+                  </div>
+              
+                  <article class="blog-post">
+                    <h2 class="blog-post-title mb-1">Jumping</h2>
+                    <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+              
+                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                    <hr>
+                    <article class="blog-post">
+                      <h2 class="blog-post-title mb-1">Jumping Far</h2>
+                      <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+                
+                      <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                      <hr>
+                      <article class="blog-post">
+                        <h2 class="blog-post-title mb-1">Throwing</h2>
+                        <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+                  
+                        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                        <hr>
+                        <article class="blog-post">
+                          <h2 class="blog-post-title mb-1">Throwing Far</h2>
+                          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+                    
+                          <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                          <hr>
+                          <article class="blog-post">
+                            <h2 class="blog-post-title mb-1">Best Jumping Shoes</h2>
+                            <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+                      
+                            <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                            <hr>
+      
+                            <div class="row mb-2">
+                              <div class="col-md-4">
+                                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                  <div class="col p-4 d-flex flex-column position-static">
+                                    <strong class="d-inline-block mb-2 text-primary">Style</strong>
+                                    <h3 class="mb-0">Featured post</h3>
+                                    <div class="mb-1 text-muted">Jan 12</div>
+                                    <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="stretched-link">Continue reading</a>
+                                  </div>
+                               
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                  <div class="col p-4 d-flex flex-column position-static">
+                                    <strong class="d-inline-block mb-2 text-primary">Distance</strong>
+                                    <h3 class="mb-0">Featured post</h3>
+                                    <div class="mb-1 text-muted">Jan 12</div>
+                                    <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="stretched-link">Continue reading</a>
+                                  </div>
+                              
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                  <div class="col p-4 d-flex flex-column position-static">
+                                    <strong class="d-inline-block mb-2 text-success">Europe</strong>
+                                    <h3 class="mb-0">Post title</h3>
+                                    <div class="mb-1 text-muted">Nov 11</div>
+                                    <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="stretched-link">Continue reading</a>
+                                  </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+      
+      
+      
+      
+      
+    
+                            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                              <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-primary">U.S.</strong>
+                                <h2 class="blog-post-title mb-1">Quote of the Week</h2>
+                                <p class="blog-post-meta">February 23, 2023</p>
+                                <blockquote>
+                                  <p>"We all have <strong>dreams</strong>. In order to make dreams come into reality, it takes an awful lot of determination, dedication, self-discipline, and effort."</p>
+                                </blockquote>
+                                 <h3>-Jesse Owens</h3>
+                              </div>
+                              <div class="col-auto d-none d-lg-block">
+                                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><image href="pics/pic14.jpg" width="100%" height="100%" preserveAspectRatio="none"/></svg>
+                              </div>
+                            </div>
+
+ 
+
+
+
+
+
+    <article class="blog-post">
+      <h2 class="blog-post-title mb-1">Opinion</h2>
+      <p class="blog-post-meta">December 14, 2023 by <a href="#">Chris</a></p>
+
+      <p> Opinions suck, mine's the best. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+      <a href="#" class="stretched-link">Continue reading</a>
+    </article>
+
+    <nav class="blog-pagination" aria-label="Pagination">
+      <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+      <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+    </nav>
+
+  </div>
+
+  <div class="col-md-4">
+    <div class="position-sticky" style="top: 2rem;">
+      <div class="p-4 mb-3 bg-light rounded">
+        <h4 class="fst-italic text-center">Upcoming Events</h4>
+        <hr>
+       <a href=""> <p class="mb-0"> <i class="fa-solid fa-person-running"></i> Event 1</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i>Event 2</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 3</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 4</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 5</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 6</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 7</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 8</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 9</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 10</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 11</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 12</p> </a>
+       <hr>
+       <a href=""> <p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 13</p> </a>
+       <hr>
+       <a href=""><p class="mb-0"><i class="fa-solid fa-person-running"></i> Event 14</p> </a>
+       <hr>
+
+      </div>
+
+      <div class="p-4 rounded archivediv text-bg-dark tophead">
+        <h4 class="fst-italic text-center">Archives</h4>
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col">
+        <ol class="list-unstyled mb-0">
+          <li><a class="text-center" href="#">March 2022</a></li>
+          <li><a class="text-center" href="#">February 2022</a></li>
+          <li><a class="text-center" href="#">January 2022</a></li>
+          <li><a class="text-center" href="#">December 2022</a></li>
+          <li><a class="text-center" href="#">November 2022</a></li>
+          <li><a class="text-center" href="#">October 2022</a></li>
+          <li><a class="text-center" href="#">March 2021</a></li>
+          <li><a class="text-center" href="#">February 2021</a></li>
+          <li><a class="text-center" href="#">January 2021</a></li>
+          <li><a class="text-center" href="#">December 2020</a></li>
+          <li><a class="text-center" href="#">November 2020</a></li>
+          <li><a class="text-center" href="#">October 2020</a></li>
+          <li><a class="text-center" href="#">September 2020</a></li>
+          <li><a class="text-center" href="#">August 2020</a></li>
+          <li><a class="text-center" href="#">July 2020</a></li>
+          <li><a class="text-center" href="#">June 2020</a></li>
+          <li><a class="text-center" href="#">May 2020</a></li>
+          <li><a class="text-center" href="#">April 2020</a></li>
+        </ol>
+      </div>
+    </div>
+    <div class="col">
+      <ol class="list-unstyled mb-0">
+        <li><a class="text-center" href="#">March 2022</a></li>
+        <li><a class="text-center" href="#">February 2022</a></li>
+        <li><a class="text-center" href="#">January 2022</a></li>
+        <li><a class="text-center" href="#">December 2022</a></li>
+        <li><a class="text-center" href="#">November 2022</a></li>
+        <li><a class="text-center" href="#">October 2022</a></li>
+        <li><a class="text-center" href="#">March 2021</a></li>
+        <li><a class="text-center" href="#">February 2021</a></li>
+        <li><a class="text-center" href="#">January 2021</a></li>
+        <li><a class="text-center" href="#">December 2020</a></li>
+        <li><a class="text-center" href="#">November 2020</a></li>
+        <li><a class="text-center" href="#">October 2020</a></li>
+        <li><a class="text-center" href="#">September 2020</a></li>
+        <li><a class="text-center" href="#">August 2020</a></li>
+        <li><a class="text-center" href="#">July 2020</a></li>
+        <li><a class="text-center" href="#">June 2020</a></li>
+        <li><a class="text-center" href="#">May 2020</a></li>
+        <li><a class="text-center" href="#">April 2020</a></li>
+      </ol>
+    </div>
+    <div class="col">
+      <ol class="list-unstyled mb-0 archiveol">
+        <li><a class="text-center" href="#">March 2022</a></li>
+        <li><a class="text-center" href="#">February 2022</a></li>
+        <li><a class="text-center" href="#">January 2022</a></li>
+        <li><a class="text-center" href="#">December 2022</a></li>
+        <li><a class="text-center" href="#">November 2022</a></li>
+        <li><a class="text-center" href="#">October 2022</a></li>
+        <li><a class="text-center" href="#">March 2021</a></li>
+        <li><a class="text-center" href="#">February 2021</a></li>
+        <li><a class="text-center" href="#">January 2021</a></li>
+        <li><a class="text-center" href="#">December 2020</a></li>
+        <li><a class="text-center" href="#">November 2020</a></li>
+        <li><a class="text-center" href="#">October 2020</a></li>
+        <li><a class="text-center" href="#">September 2020</a></li>
+        <li><a class="text-center" href="#">August 2020</a></li>
+        <li><a class="text-center" href="#">July 2020</a></li>
+        <li><a class="text-center" href="#">June 2020</a></li>
+        <li><a class="text-center" href="#">May 2020</a></li>
+        <li><a class="text-center" href="#">April 2020</a></li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+</main>
+
+  
+     
+    
+
+
+
+
+
+
+
+
+<!--Footer-->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container my-5 footdiv">
+        <!-- Footer -->
+        <footer class="text-center text-white">
+          <!-- Grid container -->
+          <div class="container">
+            <!-- Section: Links -->
+            <section class="mt-5 topfooter">
+              <!-- Grid row-->
+              <div class="row text-center d-flex justify-content-center pt-5">
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" class="text-white">About us</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" class="text-white">Products</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" class="text-white">Links</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" class="text-white">Help</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" class="text-white">Contact</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row-->
+            </section>
+            <!-- Section: Links -->
+      
+            <hr class="my-5" />
+      
+            <!-- Section: Text -->
+      
+            <!-- Section: Social -->
+            <section class="text-center mb-5 footericons">
+              <a href="" class="text-white me-4">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fa-brands fa-google"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </section>
+            <!-- Section: Social -->
+         
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div
+               class="text-center p-3 lastfoot"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2023 Copyright:
+            <a class="text-white" href="https://insanissystemscom/"
+               >Insanis Systems LLC</a
+              >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        </div>
+        <script>
+          $(function () {
+            var width = 0,
+            flipboard = document.getElementById('flipboard');
+            width = flipboard.getBoundingClientRect().width ? flipboard.getBoundingClientRect().width : flipboard.offsetWidth;
+            if (width > 800) {
+              flipboard.innerHTML = '<iframe width="100%" frameborder="0" height="600px" marginheight="0" marginwidth="0" scrolling="no" src="https://flipboard.com/section/the-internet-of-things-bn8l9H"></iframe>'
+            }
+          })();
+        </script>       
+<script>
+    // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 3000,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.ml2',
+    opacity: 0,
+    duration: 3000,
+    easing: "easeOutExpo",
+    delay: 1500
+  });
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Functions to open and close a modal
+  function openModal($el) {
+    $el.classList.add('is-active');
+  }
+
+  function closeModal($el) {
+    $el.classList.remove('is-active');
+  }
+
+  function closeAllModals() {
+    (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+      closeModal($modal);
+    });
+  }
+
+  // Add a click event on buttons to open a specific modal
+  (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
+    const modal = $trigger.dataset.target;
+    const $target = document.getElementById(modal);
+
+    $trigger.addEventListener('click', () => {
+      openModal($target);
+    });
+  });
+
+  // Add a click event on various child elements to close the parent modal
+  (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+    const $target = $close.closest('.modal');
+
+    $close.addEventListener('click', () => {
+      closeModal($target);
+    });
+  });
+
+  // Add a keyboard event to close all modals
+  document.addEventListener('keydown', (event) => {
+    const e = event || window.event;
+
+    if (e.keyCode === 27) { // Escape key
+      closeAllModals();
+    }
+  });
+});
+</script>
+<script src="https://kit.fontawesome.com/40e965689f.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    </body>
+    </html>
+
+  

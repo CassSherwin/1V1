@@ -1,0 +1,128 @@
+body {
+    background-color:#D6D6D6;
+    color: #19204E;
+  }
+
+.px-2 {
+    font-size: large;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.me-2 {
+    border-color: white;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #19204E;
+}
+.sign {
+    background-color: #D6D6D6;
+    border-color: white;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #19204E;
+}
+.navhead {
+    border-bottom: 3px solid #DF1B3F;
+}
+.ml2 {
+    font-weight: 900;
+    font-size: 2.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+    font-family: 'Arvo', serif;
+    color: #19204E;
+    text-shadow: #DF1B3F 2px 5px;
+    letter-spacing: -2px;
+  }
+
+  header {
+    margin-left: -5px;
+    box-shadow: 1px 1px #FCB300;
+  }
+  header .nav {
+    margin-right: 65px;
+  }
+  .navend {
+    margin-right: 25px;
+  }
+ .topfooter {
+    width: 100%;
+   
+    border-top: 2px solid white;
+  }
+.eventnamebox {
+    height: 40vh;
+    width: 10vw;
+    margin: 2.5vw 1.5vh;
+    background-color: #19204E;
+    border: 2px solid white;
+  }
+  .eventnamebox h3 {
+    color: white;
+    font-size: 5vh;
+  }
+
+  .tableFixHead {
+    overflow-y: auto; /* make the table scrollable if height is more than 200 px  */
+    height: 40vh;
+    width: 30vw;
+    margin: 1.5vw .5vh;
+    border: 2px solid white;
+  }
+  .tableFixHead thead th {
+    position: sticky; /* make the table heads sticky */
+    top: 0px; /* table head will be placed from the top of the table and sticks to it */
+  }
+  table {
+    border-collapse: collapse; /* make the table borders collapse to each other */
+    width: 100%;
+  }
+  th,
+  td {
+    padding: 8px 16px;
+    border: 1px solid white;
+  }
+  th {
+    text-shadow: #DF1B3F 1px 1px;
+    font-size: larger;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #19204E;
+    color: white;
+  }
+  section h1, section h2  {
+    text-shadow: #DF1B3F 1px 1px;
+    font-size: larger;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #19204E;
+    border: 2px solid #DF1B3F
+  }
+  h3 {
+        text-shadow: #DF1B3F 1px 1px;
+        font-size: larger;
+        font-family: "merriweather", serif;
+        font-weight: 700;
+        font-style: italic;
+        background-color: #19204E;
+        color: white;
+      }
+
+  tr th {
+    color: white;
+  }
+  .eventh3 {
+    margin-top: 35%;
+  }
+  .allthrow {
+    overflow-y: auto;
+
+  }

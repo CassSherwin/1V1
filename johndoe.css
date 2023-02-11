@@ -1,0 +1,166 @@
+.sprinters, .longdistancers, .throwers, .multi {
+	background-color: #19204E;
+	color: white;
+
+}
+.piccontain {
+	display: flex;
+	width: 100%;
+	padding: 4% 2%;
+	box-sizing: border-box;
+	height: 100vh;
+  }
+  
+
+  
+
+ .athletename {
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+	color: #19204E;
+	font-size: 10vw;
+  }
+#athletenavhead {
+   border-color: none;
+}
+header {
+    margin-left: -5px;
+   
+    color: #19204E;
+	border: none;
+  }
+  section h1 {
+	margin-left: 1vw;
+	font-size: 2vw;
+  }
+  .headernav {
+	border:none;
+	height: 5vh;
+  }
+  .athletesdiv {
+	margin-top: 0%;
+  }
+ 
+  .statsbox h5{
+	color: white;
+  }
+  .namecol {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	color: #19204E;
+
+
+  }
+
+h5 {
+	font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+	color: #19204E;
+	padding-left: 2vw;
+	padding-top: 2vh;
+}
+.statsbox {
+	background-color: #19204E;
+	color: white;
+	font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+	color: #19204E;
+  }
+
+.indimg {
+	width: 100%;
+	height: 100%;
+}
+.imgbox img {
+	width: 100%;
+	height:100%;
+
+}
+.imgbox {
+	padding: 0;
+}
+.eventpic {
+	width: 100%;
+	height: 90vh;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+.biop {
+	padding-top: 2vh;
+	margin-right: 2vw;
+	margin-left: 2vw;
+
+}
+.donatebtn {
+	width: 8vw;
+	background-color: #19204E;
+	color: white;
+	margin-top: 2vh;
+}
+.donatebtn:hover {
+	background-color: #DF1B3F;
+	color: #19204E;
+	width: 12vw;
+	height: 8vh;
+}
+.biotext {
+	margin-left: 2vw;
+	margin-top: 2vh;
+}
+.infosec {
+	margin-top: 2vh;
+}
+.bio {
+	margin-top: 3vh;
+}
+.eventnamebox {
+	width: 415px; 
+	height: 275px;
+	margin-top: 5vh;
+	border-bottom: 3px solid white;
+	font-family: "merriweather", serif;
+    font-weight: 700;
+	color: white;
+	font-size: 3vw;
+	text-shadow: #19204E 1px 2px;
+}
+.eventrank {
+	border-bottom: 3px solid white;
+
+
+}
+.eventrank .p3 {
+
+
+}
+.eventh3 {
+	text-decoration: underline;
+}
+
+.modal {
+	font-family: "merriweather", serif;
+	color: white;
+	font-size: 3vw;
+
+
+
+}
+
+.cartbtn {
+	background-color: #19204E;
+	color: white;
+}
+.cancelbtn, .modal-card-title, .addbtn {
+	color:#19204E
+}
+
+header {
+	border-bottom: none;
+	box-shadow: none;
+   
+  }
+

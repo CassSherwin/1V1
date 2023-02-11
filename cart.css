@@ -1,0 +1,184 @@
+#cart {
+  max-width: 90%;
+  margin: auto;
+}
+.form div {
+  margin-bottom: 0.4em;
+}
+.cartItem {
+  --bs-gutter-x: 1.5rem;
+}
+.cartItemQuantity,
+.proceed {
+  background: #f4f4f4;
+}
+.items {
+  padding-right: 30px;
+}
+#btn-checkout {
+  min-width: 100%;
+}
+
+/* stasysiia.com */
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+body {
+  
+  margin: 0;
+  padding: 0;
+  font-family: "merriweather", serif;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: #19204E;
+  text-decoration: none;
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #19204E;
+  background-color: #111;
+  border-color: transparent;
+  box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+}
+button:hover,
+.btn:hover {
+  box-shadow: 5px 5px 7px #c8c8c8, -5px -5px 7px white;
+}
+button:active {
+  box-shadow: 2px 2px 2px #c8c8c8, -2px -2px 2px white;
+}
+
+/*PREVENT BROWSER SELECTION*/
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+/*main*/
+main:before {
+  content: "";
+  display: block;
+  height: 88px;
+}
+h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  margin: 30px 6px;
+}
+h2 {
+  color: #19204E
+  font-weight: 700;
+  font-size: 2.5em;
+}
+h3 {
+  border-bottom: solid 2px #000;
+}
+h5 {
+  padding: 0;
+  font-weight: bold;
+  color: #19204E;
+}
+p {
+  color: #19204E;
+  font-family: "merriweather", serif;
+  margin: 0.6em 0;
+}
+h1,
+h2,
+h4 {
+  text-align: center;
+  padding-top: 16px;
+  font-family: "merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+/* yukito bloody */
+.back {
+  position: relative;
+  top: -30px;
+  font-size: 16px;
+ 
+}
+.back a {
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: larger;
+ 
+}
+.inline {
+  display: inline-block;
+}
+
+.shopnow,
+.contact {
+    background-color: #19204E;
+    color: white;
+  padding: 10px 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.shopnow:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #DF1B3F
+}
+/* for button animation*/
+.shopnow span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: all 0.5s;
+}
+.shopnow span:after {
+  content: url("https://badux.co/smc/codepen/caticon.png");
+  position: absolute;
+  font-size: 30px;
+  opacity: 0;
+  top: 2px;
+  right: -6px;
+  transition: all 0.5s;
+}
+.shopnow:hover span {
+  padding-right: 25px;
+}
+.shopnow:hover span:after {
+  opacity: 1;
+  top: 2px;
+  right: -6px;
+}
+.ma {
+  margin: auto;
+}
+.price {
+  color: slategrey;
+  font-size: 2em;
+}
+#mycart {
+  min-width: 90px;
+}
+#cartItems {
+  font-size: 17px;
+}
+#product .container .row .pr4 {
+  padding-right: 15px;
+}
+#product .container .row .pl4 {
+  padding-left: 15px;
+}
+#athletenavhead {
+border-bottom: 2px solid white;
+
+}
+
+header {
+    border-bottom: none;
+    box-shadow: none;
+   
+  }

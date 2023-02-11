@@ -1,0 +1,57 @@
+.container {
+  width: 95%;
+}
+h2 {
+    text-shadow: #DF1B3F 1px 1px;
+    font-size: larger;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+
+}
+p  {
+    font-size: larger;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #19204E;
+    padding-top: 2vh;
+
+}
+
+h4  {
+    font-size: larger;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #19204E;
+    padding-top: 2vh;
+
+}
+label {
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #19204E;
+
+}
+.sign {
+    background-color: #19204E;
+    color: white;
+}
+
+.badge {
+    background-color: #19204E;
+}
+
+.cart {
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #19204E;
+}
+header {
+    border-bottom: 2px solid white;
+    box-shadow: none;
+   
+  }

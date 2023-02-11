@@ -1,0 +1,345 @@
+body {
+    background-color:#D6D6D6;
+    color: #19204E;
+  }
+
+.px-2 {
+    font-size: large;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.me-2 {
+    border-color: white;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #19204E;
+}
+.sign {
+    background-color: #D6D6D6;
+    border-color: white;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #19204E;
+}
+.sign:hover {
+   background-color: #DF1B3F;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 2.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+    font-family: 'Arvo', serif;
+    color: #19204E;
+    text-shadow: #DF1B3F 2px 5px;
+    letter-spacing: -2px;
+  }
+
+  header {
+    margin-left: -5px;
+    border-bottom: 2px solid white;
+    box-shadow: 2px 1px #FCB300;
+    color: #19204E;
+  }
+  header .nav {
+    margin-right: 65px;
+    color: #19204E;
+  }
+  .navend {
+    margin-right: 25px;
+    color: #19204E;
+    border: none;
+  }
+  .navend a:hover {
+   background-color: #DF1B3F;
+  
+ }
+ .topfooter {
+    width: 100%;
+   
+    border-top: 2px solid white;
+  }
+
+  .upimgall {
+    height: 30vh;
+  }
+
+  .upimgall .updiv{
+    font-size: large;
+    font-family: 'Arvo', serif;
+    margin-top: 5vh;
+    background-color: #19204E;
+    background-image: linear-gradient(to top right, rgba(228,221,221, 0.50) 10%, rgba(0,0,0, 0.80 ) 60%), url("pics/womenrace1.jpg");
+  }
+
+ .upimg1 {
+    background-image: url("pics/menrace1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 2vw;
+    margin: 1vw;
+ }
+ .upimg2 {
+    background-image: url("pics/womenrace1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 2vw;
+    margin: 1vw;
+ }
+ .upimg3 {
+    background-image: url("pics/womenrace2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 2vw;
+    margin: 1vw;
+ }
+ .upimg4 {
+    background-image: url("pics/menrace2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 2vw;
+    margin: 1vw;
+ }
+
+ .noimg {
+    background-color: black;
+    color: #DF1B3F;
+    padding: 2vw;
+    margin: 1vw;
+ }
+.sec1 {
+   border-bottom: 3px solid white;
+   height: 15vh;
+   box-shadow: 2px 1px #FCB300;
+   
+}
+ .sec2, .sec3, .sec4, .sec5, .sec6 {
+    border-bottom: 3px solid white;
+    height: 15vh;
+    box-shadow: 2px 1px #FCB300;
+    padding-top: 3vh;
+ }
+ .vword {
+    color: #DF1B3F;
+    font-weight: bolder;
+ }
+
+ .mainsecs {
+    height: 43vh;
+ }
+ h1 {
+    text-shadow: #DF1B3F 1px 1px;
+    font-size: larger;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+
+ }
+ .mainsecs h1 {
+    font-size: larger;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+ }
+.logoimg {
+   width: 7vw;
+   height: 7vh;
+   padding-left: 2vh;
+}
+ .lateeventssec {
+    height: 50vh;
+
+ }
+ .newssec {
+    background-color: #19204E;
+    height: 50vh;
+
+ }
+ .arttitle {
+   font-size: larger;
+   font-family: "merriweather", serif;
+   font-weight: 700;
+   font-style: italic;
+   color: white;
+   padding-bottom: 1.5vh;
+ }
+ .newsh1 {
+    color: white;
+    text-shadow: #DF1B3F 1px 1px;
+ }
+ .arttext {
+    color: #19204E;
+    border: 1px solid white;
+    font-family: "merriweather", serif;
+    height: 35vh;
+    overflow: scroll;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: white;
+ }
+ .newsbuttons {
+    background-color: #19204E;
+    color: white; 
+    margin-top: 2vh;
+ }
+ .newsbuttons:hover {
+   background-color: #19204E;
+   color: #DF1B3F; 
+}
+ .sec5 {
+    height: 50vh;
+ }
+
+ .featlinks {
+    height: 30vh;
+    width: 45vw;
+ }
+ h5 {
+    color: #19204E;
+    font-family: 'Arvo', serif;
+ }
+ .heacernav {
+    color: #19204E;
+ }
+
+ .headernav li a {
+   color: #19204E;
+ }
+ .headernav li a:hover {
+   color: #DF1B3F;
+   font-weight: bold;
+   font-size: larger;
+ }
+
+ .tableFixHead {
+   overflow-y: auto; /* make the table scrollable if height is more than 200 px  */
+   height: 25vh;
+   width: 20vw;
+   margin: 1.5vw .5vh;
+   border: 2px solid white;
+ }
+ .tableFixHead thead th {
+   position: sticky; /* make the table heads sticky */
+   top: 0px; /* table head will be placed from the top of the table and sticks to it */
+ }
+ table {
+   border-collapse: collapse; /* make the table borders collapse to each other */
+   width: 100%;
+ }
+ th,
+ td {
+   padding: 8px 16px;
+   border: 1px solid white;
+ }
+ th {
+   text-shadow: #DF1B3F 1px 1px;
+   font-size: larger;
+   font-family: "merriweather", serif;
+   font-weight: 700;
+   font-style: italic;
+   background-color: #19204E;
+   color: white;
+ }
+ tr th {
+   color: white;
+ }
+
+ .sec7 {
+   margin-left: 15%;
+   padding-top: 1%;
+ }
+
+/*MODAL*/
+.modal-sheet .modal-dialog {
+   width: 380px;
+   transition: bottom .75s ease-in-out;
+ }
+ .modal-sheet .modal-footer {
+   padding-bottom: 2rem;
+ }
+ 
+ .modal-alert .modal-dialog {
+   width: 380px;
+ }
+ 
+ .modal-tour .modal-dialog {
+   width: 380px;
+ }
+
+ .bd-placeholder-img {
+   font-size: 1.125rem;
+   text-anchor: middle;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   user-select: none;
+ }
+
+ @media (min-width: 768px) {
+   .bd-placeholder-img-lg {
+     font-size: 3.5rem;
+   }
+ }
+
+ .b-example-divider {
+   height: 3rem;
+   background-color: rgba(0, 0, 0, .1);
+   border: solid rgba(0, 0, 0, .15);
+   border-width: 1px 0;
+   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+ }
+
+ .b-example-vr {
+   flex-shrink: 0;
+   width: 1.5rem;
+   height: 100vh;
+ }
+
+ .bi {
+   vertical-align: -.125em;
+   fill: currentColor;
+ }
+
+ .nav-scroller {
+   position: relative;
+   z-index: 2;
+   height: 2.75rem;
+   overflow-y: hidden;
+ }
+
+ .nav-scroller .nav {
+   display: flex;
+   flex-wrap: nowrap;
+   padding-bottom: 1rem;
+   margin-top: -1px;
+   overflow-x: auto;
+   text-align: center;
+   white-space: nowrap;
+   -webkit-overflow-scrolling: touch;
+ }
+.donatebtn {
+   border: none;
+   font-size: large;
+   font-family: 'Arvo', serif;
+   color: white;
+}
+.donatebtn:hover {
+   border: none;
+   font-size: large;
+   font-family: 'Arvo', serif;
+   color: white;
+   background-color: #19204E;
+}
+
+

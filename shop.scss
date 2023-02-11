@@ -1,0 +1,479 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  word-break: keep-all;
+  outline: 0px solid silver;
+}
+img {
+  width: 100px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #999;
+  letter-spacing: 0.1px;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+h4 {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+}
+
+h5 {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+}
+
+a:link {
+  color: #666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+
+button {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: crimson;
+  color: white;
+}
+
+/* mobile start */
+
+main {
+  position: relative;
+  height: 600px;
+  background: url('https://www.kanj.co.kr/web/upload/NNEditor/20220202/c0bc655c84c052e189572052d3482c8e.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+main header {
+  padding: 30px 10%;
+  display: flex;
+  text-transform: uppercase;
+  line-height: 0rem;
+  font-size: 1rem;
+  background: #fff;
+  color: black;
+}
+
+main header ul {
+  list-style: none;
+  display: flex;
+}
+
+main header ul li {
+  margin: 0 15px;
+}
+
+main header ul li:hover {
+  opacity: 0.6;
+  cursor:pointer;
+}
+
+header span:hover {
+  opacity: 0.2;
+}
+
+header span {
+  font-size: 2.2rem;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+
+
+main>div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+main div p {
+  padding: 16px;
+}
+
+.get-text {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.get-text div {
+  padding: 20px;
+}
+
+.get-text div img {
+  width: 180px;
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.8s;
+  margin: 20px;
+}
+
+.get-text div img:hover {
+  opacity: 0.6;
+}
+
+.get {
+  height: 500px;
+  background: url('https://www.kanj.co.kr/web/upload/category/shop1_87_top_284785.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.get>div {
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 0, 0, 1);
+  padding: 80px 5%;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.get>div:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.get div div {
+  display: none;
+}
+
+.get div button {
+  margin-top: 32px;
+}
+
+.bespoke-text {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.bespoke section {
+  height: 500px;
+  color: white;
+}
+
+.bespoke> :nth-child(1) {
+  background: url('https://www.kanj.co.kr/web/upload/NNEditor/20211031/91902eccf438ed6d1fd568b11967d9f1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bespoke> :nth-child(2) {
+  background: url('https://www.kanj.co.kr/web/upload/NNEditor/20211031/484dec18b2aa1c579110fd31f23f82ca.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bespoke> :nth-child(3) {
+  background: url('https://www.kanj.co.kr/web/upload/NNEditor/20211031/fe865eb773dfcd5e2feb2175987476d3.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bespoke section> div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.bespoke section> div:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.bespoke section div div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.bespoke section div div button {
+  background: none;
+  color: white;
+}
+
+.design-text {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.design section {
+  height: 200px;
+}
+
+.design> :nth-child(1) {
+  background: url('https://www.kanj.co.kr/web/upload/NNEditor/20211130/1be7ba0c2f0305d9f43c230da1563d68.jpg') no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.design> :nth-child(2) {
+  background: url("https://www.kanj.co.kr/web/upload/NNEditor/20211031/3dea26a58043dca06f6fcc068483cfc3.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.design> :nth-child(3) {
+  background: url("https://www.kanj.co.kr/web/upload/NNEditor/20211031/af6aabf0dd1da9792e20d0ecc11d287a.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.design> :nth-child(4) {
+  background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fpost.phinf.naver.net%2FMjAyMTExMTFfMjUw%2FMDAxNjM2NTk0NzE1NTc5.U4vuxZOh-zS0M7e3d_vFFv8NZObTz7AYw43mL8rcyPUg.LwuhlfsY9RAh0IDXfZvtkDmAigxnT-pWMp4UFgI5_iUg.JPEG%2FIdRJ33jLKSuH8xLGxeqx18TSL9fg.jpg&type=a340") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.design section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.design section div:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.design section div button {
+  background: none;
+  color: white;
+}
+
+.greetings {
+  position: relative;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.greetings> :nth-child(1), .greetings> :nth-child(2) {
+  position: absolute;
+  top: 40%;
+  padding: 16px 6px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.greetings> :nth-child(1) {
+  left: 10%;
+}
+
+.greetings> :nth-child(2) {
+  right: 10%;
+}
+
+.greetings> :nth-child(1):hover, .greetings> :nth-child(2):hover {
+  background: crimson;
+  color: white;
+}
+
+.greetings> :nth-child(4) {
+  padding: 20px 0;
+}
+
+.greetings :nth-child(4) img {
+  width: 150px;
+  margin: 2px 2%;
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.greetings :nth-child(4) img:hover {
+  transform: scale(1.1);
+}
+
+.event {
+  display: none;
+}
+
+footer {
+  padding: 80px 10%;
+  background: #222;
+}
+
+footer div h2 {
+  color: #aaa;
+}
+
+footer div form>div {
+  padding: 8px 0;
+}
+
+footer div form>div label {
+  display: block;
+  line-height: 2.4rem;
+}
+
+footer div form>div input {
+  width: 240px;
+  padding: 10px;
+}
+
+footer div form>div textarea {
+  width: 240px;
+  padding: 10px;
+  height: 90px;
+}
+
+footer div form>div button {
+  width: 240px;
+}
+
+address {
+  padding: 80px 10%;
+  background: #333;
+}
+
+address div h2 {
+  color: #aaa;
+}
+
+/* laptop start */
+@media screen and (min-width: 1366px) {
+  main {
+    height: 800px;
+  }
+
+  .get div div {
+    display: block;
+  }
+
+  .bespoke {
+    display: flex;
+  }
+
+  .bespoke section {
+    height: 600px;
+    width: 100%;
+  }
+
+  .design {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .design section {
+    height: 400px;
+    width: 50%;
+  }
+
+  .greetings {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .event {
+    display: block;
+    background: #eee;
+    padding: 80px 0;
+  }
+
+  .event h2 {
+    text-align: center;
+  }
+
+  .event table {
+    width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+  .event table tr {
+    cursor: pointer;
+    transition: 0.8s;
+  }
+
+  .event table tr:hover {
+    background: white;
+  }
+
+  .event table tr td {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  footer div {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  address div {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+/* end */
