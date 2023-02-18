@@ -1,6 +1,6 @@
 .sprinters, .longdistancers, .throwers, .multi {
-	background-color: #19204E;
-	color: white;
+	background-color: #231F20;
+	color: #EAEAEA;
 
 }
 .piccontain {
@@ -59,7 +59,7 @@
 header {
     margin-left: -5px;
    
-    color: #19204E;
+    color: #231F20;
 	border: none;
   }
   section h1 {
@@ -75,13 +75,13 @@ header {
   }
  
   .statscol h5{
-	color: white;
+	color: #EAEAEA;
   }
   .namecol {
 	width: 100%;
 	height: 100%;
-	background-color: white;
-	color: #19204E;
+	background-color: #EAEAEA;
+	color: #231F20;
 
 
   }
@@ -90,8 +90,8 @@ header {
 
 }
 .statscol {
-	background-color: #19204E;
-	color: white;
+	background-color: #EAEAEA;
+	color: #EAEAEA;
   }
 
 .indimg {
@@ -116,10 +116,8 @@ header {
 
   
   .athletename {
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-	color: #19204E;
+    font-family: 'Jost', sans-serif;
+	color: #231F20;
 	font-size: 10vw;
   }
   .navhead {
@@ -131,3 +129,14 @@ header {
 	box-shadow: none;
    
   }
+
+  .headernav .same {
+	color: #8E793E;
+ }
+
+ .me-2:hover {
+	background-color: #231F20;
+	color: #EAEAEA;
+	border: 1px solid #8E793E;
+
+ }

@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  font-family: "merriweather", serif;
+  font-family: 'Jost', sans-serif;
 }
 
 .signbody {
@@ -33,7 +33,7 @@ body {
 }
 
 .signinbtn {
-    background-color: #19204E;
+    background-color: #8E793E;
     color: white;
 }
 .navhead {
@@ -41,3 +41,6 @@ body {
     box-shadow: none;
 }
 
+.me-2:hover {
+  color: #e2e2e2;
+}

@@ -7,7 +7,7 @@
 
 p, .psub {
 	font-size: 12px;
-	color: #111111;
+	color: #AD974F;
 }
 .psub {
     padding-top: .5vh;
@@ -16,7 +16,7 @@ p, .psub {
 .braceletbutton {
     background-color: black;
     margin-left: .5vw;
-    border: 2px solid #68899a;
+    border: 2px solid #8E793E
 }
 .sizebtn {
     margin-left: 1vw;
@@ -42,16 +42,16 @@ p, .psub {
 	text-align: center;
 }
 .btn_primary {
-	background-color: #111111;
+	background-color: #AD974F;
 	color: #ffffff;
 	padding: 20px 60px;
 }
 .btn_outline {
-	border: 2px solid #ded3aa;
+	border: 2px solid #8E793E;
 	padding: 16px 48px;
 }
 .btn_outline_secondary {
-	border: 1px solid #e1e1e1;
+	border: 1px solid #8E793E;
 	padding: 20px 40px;
 	margin-left: 20px;
 }
@@ -101,7 +101,7 @@ p, .psub {
 .product_details h4 {
 	font-size: 24px;
 	font-weight: 600;
-	color: #111111;
+	color: #AD974F;
 }
 .product_details p {
 	font-size: 14px;
@@ -141,7 +141,7 @@ p, .psub {
 }
 
 .material-symbols-outlined {
-	color: #111111;
+	color: #8E793E;
 	font-size: 22px;
 	cursor: pointer;
 }
@@ -152,7 +152,7 @@ p, .psub {
 	margin: 16px;
 }
 a {
-	color: #111111;
+	color: #AD974F;
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -169,19 +169,19 @@ h6 {
 }
 .back a {
 	font-size: 13px;
-	color: #68899a;
+	color: #AD974F;
 	font-weight: 300;
 	text-transform: capitalize;
 }
 h2 {
 	font-size: 24px;
 	font-weight: 700;
-	color: #111111;
+	color: #AD974F;
 }
 h3 {
 	font-size: 24px;
 	font-weight: 700;
-	color: #68899a;
+	color: #EAEAEA;
 }
 .about {
 	margin-top: 30px;
@@ -189,19 +189,16 @@ h3 {
 .about p, .psub {
 	font-size: 14px;
 	margin: 0;
-	color: #111111;
+	color: #AD974F;
 	font-weight: 500;
 }
 .about span {
 	font-size: 14px;
 	margin: 0;
-	color: #68899a;
+	color: #AD974F;
 	font-weight: 500;
 }
 .cta .material-symbols-outlined {
 	margin-right: 6px;
 }
 
-.navend {
-   
-}

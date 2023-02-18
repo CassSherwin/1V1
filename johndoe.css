@@ -1,6 +1,6 @@
 .sprinters, .longdistancers, .throwers, .multi {
-	background-color: #19204E;
-	color: white;
+	background-color: #8E793E;
+	color: #EAEAEA;
 
 }
 .piccontain {
@@ -15,10 +15,8 @@
   
 
  .athletename {
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-	color: #19204E;
+    font-family: 'Jost', sans-serif;
+	color: #8E793E;
 	font-size: 10vw;
   }
 #athletenavhead {
@@ -27,7 +25,7 @@
 header {
     margin-left: -5px;
    
-    color: #19204E;
+    color: #8E793E;
 	border: none;
   }
   section h1 {
@@ -43,32 +41,28 @@ header {
   }
  
   .statsbox h5{
-	color: white;
+	color: #EAEAEA;
   }
   .namecol {
 	width: 100%;
 	height: 100%;
-	background-color: white;
-	color: #19204E;
+	background-color: #EAEAEA;
+	color: #8E793E;
 
 
   }
 
 h5 {
-	font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-	color: #19204E;
+	font-family: 'Jost', sans-serif;
+	color: #8E793E;
 	padding-left: 2vw;
 	padding-top: 2vh;
 }
 .statsbox {
-	background-color: #19204E;
-	color: white;
-	font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-	color: #19204E;
+	background-color: #8E793E;
+	color: #EAEAEA;
+	font-family: 'Jost', sans-serif;
+	color: #8E793E;
   }
 
 .indimg {
@@ -97,19 +91,24 @@ h5 {
 }
 .donatebtn {
 	width: 8vw;
-	background-color: #19204E;
-	color: white;
+	background-color: #8E793E;
+	color: #EAEAEA;
 	margin-top: 2vh;
 }
 .donatebtn:hover {
 	background-color: #DF1B3F;
-	color: #19204E;
+	color: #8E793E;
 	width: 12vw;
 	height: 8vh;
 }
+
 .biotext {
 	margin-left: 2vw;
 	margin-top: 2vh;
+	color: #EAEAEA;
+}
+.newstitle {
+	color: #AD974F;
 }
 .infosec {
 	margin-top: 2vh;
@@ -119,22 +118,22 @@ h5 {
 }
 .eventnamebox {
 	width: 415px; 
-	height: 275px;
+	max-height: 400px;
 	margin-top: 5vh;
-	border-bottom: 3px solid white;
-	font-family: "merriweather", serif;
-    font-weight: 700;
-	color: white;
+	border-bottom: 3px solid #EAEAEA;
+	font-family: 'Jost', sans-serif;
+	color: #EAEAEA;
 	font-size: 3vw;
-	text-shadow: #19204E 1px 2px;
+	text-shadow: #8E793E 1px 2px;
 }
 .eventrank {
-	border-bottom: 3px solid white;
+	border-bottom: 3px solid #EAEAEA;
+	max-height: 275px;
 
 
 }
-.eventrank .p3 {
-
+.eventrank .p3, .eventnamebox .p3{
+	height: 275;
 
 }
 .eventh3 {
@@ -142,8 +141,8 @@ h5 {
 }
 
 .modal {
-	font-family: "merriweather", serif;
-	color: white;
+	font-family: 'Jost', sans-serif;
+	color: #EAEAEA;
 	font-size: 3vw;
 
 
@@ -151,11 +150,11 @@ h5 {
 }
 
 .cartbtn {
-	background-color: #19204E;
-	color: white;
+	background-color: #8E793E;
+	color: #EAEAEA;
 }
 .cancelbtn, .modal-card-title, .addbtn {
-	color:#19204E
+	color:#8E793E;
 }
 
 header {
@@ -163,4 +162,29 @@ header {
 	box-shadow: none;
    
   }
+  .me-2:hover {
+	background-color: #231F20;
+	color: #EAEAEA;
+	border: 1px solid #8E793E;
 
+ }
+
+ .subtitle {
+	color: #231F20;
+
+ }
+
+ .title, h1 {
+	color: #231F20;
+ }
+
+.piclink .linkimg {
+	width: 80%;
+	height: 85%;
+ }
+ .iframesize {
+	width: 80%;
+	height: 240px;
+
+
+ }

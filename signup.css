@@ -2,56 +2,53 @@
   width: 95%;
 }
 h2 {
-    text-shadow: #DF1B3F 1px 1px;
+    text-shadow: #8E793E 1px 1px;
     font-size: larger;
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: 'Jost', sans-serif;
+    color: #8E793E;
 
 }
 p  {
     font-size: larger;
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #19204E;
+    font-family: 'Jost', sans-serif;
+    color: #AD974F;
     padding-top: 2vh;
 
 }
 
 h4  {
     font-size: larger;
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #19204E;
+    font-family: 'Jost', sans-serif;
+    color: #AD974F;
     padding-top: 2vh;
 
 }
 label {
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #19204E;
+    font-family: 'Jost', sans-serif;
+    color: #AD974F;
 
 }
 .sign {
-    background-color: #19204E;
-    color: white;
+    background-color: #AD974F;
+    color: #EAEAEA;
+}
+.sign:hover {
+    border: 2px solid #AD974F;
 }
 
 .badge {
-    background-color: #19204E;
+    background-color: #AD974F;
 }
 
 .cart {
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #19204E;
+    font-family: 'Jost', sans-serif;
+    color: #AD974F;
 }
 header {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #EAEAEA;
     box-shadow: none;
    
+  }
+  .me-2:hover {
+    color: #EAEAEA;
   }

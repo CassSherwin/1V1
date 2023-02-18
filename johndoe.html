@@ -15,6 +15,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Jost:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
   <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
@@ -42,7 +44,7 @@
           <li><a href="index.html" class="nav-link px-2">Home</a></li>
           <li><a href="rankings.html" class="nav-link px-2">Rankings</a></li>
           <li><a href="videos.html" class="nav-link px-2">Videos</a></li>
-          <li><a href="athletes.html" class="nav-link px-2 link-secondary">Athletes</a></li>
+          <li><a href="athletes.html" class="nav-link px-2 same">Athletes</a></li>
           <li><a href="news.html" class="nav-link px-2">Stories</a></li>
           <li><a href="shop.html" class="nav-link px-2">Shop</a></li>
         </ul>
@@ -136,7 +138,7 @@
 <div class="container">
   <div class="row">
     <div class="col text-center">
-<button type="button" class="btn btn-outline-primary me-2 js-modal-trigger donatebtn" data-target="modal-js-example">Donate</button>
+<button type="button" class="btn me-2 js-modal-trigger donatebtn" data-target="modal-js-example">Donate</button>
 </div>
 </div>
 </div>
@@ -182,7 +184,7 @@
 </div>
 </section>
 <section class="Latest News">
-  <h1>Latest News</h1>
+  <h1 class="newstitle">Latest News</h1>
   <hr>
   <div class="container overflow-hidden text-center">
     <div class="row gx-5">
@@ -196,7 +198,7 @@
       </div>
       <div class="col eventrank">
         <div class="p-3">
-          <iframe width="415" height="275" src="https://www.youtube.com/embed/jY8eaf4rVTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+          <iframe class="iframesize" src="https://www.youtube.com/embed/jY8eaf4rVTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
         </div>
         </div>
       </div>
@@ -212,7 +214,7 @@
           </div>
           <div class="col eventrank">
             <div class="p-3">
-              <iframe width="415" height="275" src="https://www.youtube.com/embed/AW_UX308FiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+              <iframe class="iframesize" src="https://www.youtube.com/embed/AW_UX308FiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
             </div>
           </div>
           <div class="container overflow-hidden text-center">
@@ -227,7 +229,7 @@
               </div>
               <div class="col eventrank">
                 <div class="p-3">
-                  <iframe width="415" height="275" src="https://www.youtube.com/embed/9pKobiM2C1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </div>
+                  <iframe class="iframesize" src="https://www.youtube.com/embed/9pKobiM2C1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </div>
               </div>
               </div>
               </div>
@@ -243,7 +245,7 @@
                   </div>
                   <div class="col eventrank">
                     <div class="p-3">
-                      <a href="https://www.nytimes.com/2022/08/28/sports/track-and-field-style-money.html?smid=url-share"><img src="pics/articlenyt.png" alt="Picture of connecting article" style="width:415;height:260;"></a>
+                      <a  class="piclink" href="https://www.nytimes.com/2022/08/28/sports/track-and-field-style-money.html?smid=url-share"><img class="linkimg" src="pics/articlenyt.png" alt="Picture of connecting article" style="width:415;height:210;"></a>
                        </div>
                     </div>
                   </div>
@@ -259,7 +261,7 @@
                       </div>
                       <div class="col eventrank">
                         <div class="p-3">
-                          <a href="https://flip.it/huynQ1"><img src="pics/articlespic.png" alt="Picture of connecting article" style="width:415;height:260;"></a>
+                          <a class="piclink" href="https://flip.it/huynQ1"><img class="linkimg" src="pics/articlespic.png" alt="Picture of connecting article" style="width:415;height:210;"></a>
                            </div>
                         </div>
                       </div>
@@ -275,7 +277,7 @@
                           </div>
                           <div class="col eventrank">
                             <div class="p-3">
-                              <a href="https://flip.it/TNZACB"><img src="pics/article3.png" alt="Picture of connecting article" style="width:415;height:260;"></a>
+                              <a class="piclink" href="https://flip.it/TNZACB"><img class="linkimg" src="pics/article3.png" alt="Picture of connecting article"></a>
                                </div>
                             </div>
                           </div>
@@ -490,6 +492,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
+
 <script src="https://kit.fontawesome.com/40e965689f.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     </body>

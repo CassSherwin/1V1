@@ -1,31 +1,34 @@
 body {
-    background-color:#D6D6D6;
-    color: #19204E;
+    background-color:#231F20;
+    color: #AD974F;
   }
 
 .px-2 {
     font-size: large;
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 800; 
 }
 .me-2 {
-    border-color: white;
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #19204E;
+    border-color: #EAEAEA;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #AD974F;
+}
+.me-2:hover {
+  color: #EAEAEA;
 }
 .sign {
-    background-color: #D6D6D6;
-    border-color: white;
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #19204E;
+    background-color: #231F20;
+    border-color: #231F20;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #AD974F;
 }
 .sign:hover {
-   background-color: #DF1B3F;
+   color: #EAEAEA;
 }
 
 .ml2 {
@@ -36,35 +39,37 @@ body {
   .ml2 .letter {
     display: inline-block;
     line-height: 1em;
-    font-family: 'Arvo', serif;
-    color: #19204E;
-    text-shadow: #DF1B3F 2px 5px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #AD974F;
+    text-shadow: #8E793E 2px 5px;
     letter-spacing: -2px;
   }
 
   header {
     margin-left: -5px;
-    border-bottom: 2px solid white;
-    box-shadow: 2px 1px #FCB300;
-    color: #19204E;
+    border-bottom: 2px solid #EAEAEA;
+    box-shadow: 2px 1px #8E793E;
+    color: #AD974F;
   }
   header .nav {
     margin-right: 65px;
-    color: #19204E;
+    color: #AD974F;
   }
   .navend {
     margin-right: 25px;
-    color: #19204E;
+    color: #AD974F;
     border: none;
   }
   .navend a:hover {
-   background-color: #DF1B3F;
+  border: 1px solid #8E793E;
   
  }
  .topfooter {
     width: 100%;
    
-    border-top: 2px solid white;
+    border-top: 2px solid #EAEAEA;
   }
 
   .upimgall {
@@ -73,7 +78,9 @@ body {
 
   .upimgall .updiv{
     font-size: large;
-    font-family: 'Arvo', serif;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 800;
     margin-top: 5vh;
     background-color: #19204E;
     background-image: linear-gradient(to top right, rgba(228,221,221, 0.50) 10%, rgba(0,0,0, 0.80 ) 60%), url("pics/womenrace1.jpg");
@@ -114,24 +121,24 @@ body {
 
  .noimg {
     background-color: black;
-    color: #DF1B3F;
+    color: #AD974F;
     padding: 2vw;
     margin: 1vw;
  }
 .sec1 {
-   border-bottom: 3px solid white;
+   border-bottom: 3px solid #EAEAEA;
    height: 15vh;
-   box-shadow: 2px 1px #FCB300;
+   box-shadow: 2px 1px #8E793E;
    
 }
  .sec2, .sec3, .sec4, .sec5, .sec6 {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #EAEAEA;
     height: 15vh;
-    box-shadow: 2px 1px #FCB300;
+    box-shadow: 2px 1px #8E793E;
     padding-top: 3vh;
  }
  .vword {
-    color: #DF1B3F;
+    color: #AD974F;
     font-weight: bolder;
  }
 
@@ -139,18 +146,18 @@ body {
     height: 43vh;
  }
  h1 {
-    text-shadow: #DF1B3F 1px 1px;
+    text-shadow: #8E793E 1px 1px;
     font-size: larger;
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 800;
 
  }
  .mainsecs h1 {
     font-size: larger;
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 800;
  }
 .logoimg {
    width: 7vw;
@@ -162,26 +169,28 @@ body {
 
  }
  .newssec {
-    background-color: #19204E;
+    background-color: #8E793E;
     height: 50vh;
 
  }
  .arttitle {
    font-size: larger;
-   font-family: "merriweather", serif;
-   font-weight: 700;
-   font-style: italic;
+   font-family: 'Jost', sans-serif;
+   font-style: normal;
+   font-weight: 800;
    color: white;
    padding-bottom: 1.5vh;
  }
  .newsh1 {
     color: white;
-    text-shadow: #DF1B3F 1px 1px;
+    text-shadow: #8E793E 1px 1px;
  }
  .arttext {
-    color: #19204E;
-    border: 1px solid white;
-    font-family: "merriweather", serif;
+    color: #231F20;
+    border: 1px solid #EAEAEA;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 800;
     height: 35vh;
     overflow: scroll;
     padding-bottom: 2vh;
@@ -190,13 +199,13 @@ body {
     background-color: white;
  }
  .newsbuttons {
-    background-color: #19204E;
-    color: white; 
+    background-color: #231F20;
+    color: #EAEAEA; 
     margin-top: 2vh;
  }
  .newsbuttons:hover {
-   background-color: #19204E;
-   color: #DF1B3F; 
+  background-color: #231F20;
+   color: #8E793E; 
 }
  .sec5 {
     height: 50vh;
@@ -207,18 +216,20 @@ body {
     width: 45vw;
  }
  h5 {
-    color: #19204E;
-    font-family: 'Arvo', serif;
+    color: #AD974F;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 800;
  }
  .heacernav {
-    color: #19204E;
+    color: #AD974F;
  }
 
  .headernav li a {
-   color: #19204E;
+   color: #AD974F;
  }
  .headernav li a:hover {
-   color: #DF1B3F;
+   color: #AD974F;
    font-weight: bold;
    font-size: larger;
  }
@@ -228,7 +239,7 @@ body {
    height: 25vh;
    width: 20vw;
    margin: 1.5vw .5vh;
-   border: 2px solid white;
+   border: 2px solid #EAEAEA;
  }
  .tableFixHead thead th {
    position: sticky; /* make the table heads sticky */
@@ -241,19 +252,19 @@ body {
  th,
  td {
    padding: 8px 16px;
-   border: 1px solid white;
+   border: 1px solid #EAEAEA;
  }
  th {
-   text-shadow: #DF1B3F 1px 1px;
+   text-shadow: #8E793E 1px 1px;
    font-size: larger;
-   font-family: "merriweather", serif;
-   font-weight: 700;
-   font-style: italic;
-   background-color: #19204E;
-   color: white;
+   font-family: 'Jost', sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   background-color: #8E793E;
+   color: #EAEAEA;
  }
  tr th {
-   color: white;
+   color: #EAEAEA;
  }
 
  .sec7 {
@@ -294,7 +305,7 @@ body {
 
  .b-example-divider {
    height: 3rem;
-   background-color: rgba(0, 0, 0, .1);
+   background-color: #231F20;
    border: solid rgba(0, 0, 0, .15);
    border-width: 1px 0;
    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
@@ -331,15 +342,23 @@ body {
 .donatebtn {
    border: none;
    font-size: large;
-   font-family: 'Arvo', serif;
+   font-family: 'Jost', sans-serif;
+   font-style: normal;
+   font-weight: 800;
    color: white;
 }
 .donatebtn:hover {
    border: none;
    font-size: large;
-   font-family: 'Arvo', serif;
+   font-family: 'Jost', sans-serif;
+   font-style: normal;
+   font-weight: 800;
    color: white;
-   background-color: #19204E;
+   background-color: #8E793E;
 }
+.headernav .same {
+   color: #8E793E;
+}
+
 
 

@@ -4,7 +4,7 @@
   }
   
   .blog-header-logo {
-	font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-family: 'Jost', sans-serif;
 	font-size: 2.25rem;
   }
   
@@ -13,18 +13,24 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-	font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-family: 'Jost', sans-serif;
   }
   
   .display-4 {
-	font-size: 2.5rem;
+	font-size: 2rem;
+  text-shadow: #8E793E 1px 1px;
   }
   @media (min-width: 768px) {
 	.display-4 {
-	  font-size: 3rem;
+	  font-size: 2rem;
+    text-shadow: #8E793E 1px 1px;
 	}
   }
-  
+  .maintitle {
+   
+    color: #EAEAEA;
+
+  }
   .flex-auto {
 	flex: 0 0 auto;
   }
@@ -67,15 +73,15 @@
 	margin-bottom: 0;
   }
   .tophead {
-	background-color: #19204E;
+	background-color: #AD974F;
   }
   hr {
 	color: red;
-	border: 2px solid #19204E;
+	border: 2px solid #EAEAEA;
   }
   a {
-    font-family: "merriweather", serif;
-    color: #19204E;
+    font-family: 'Jost', sans-serif;
+    color: #8E793E;
 
   }
   p a {
@@ -91,16 +97,16 @@
 
   }
   li a {
-    font-family: "merriweather", serif;
-    color: white;
+    font-family: 'Jost', sans-serif;
+    color: #EAEAEA;
   }
 
   .archivediv h4 {
 	text-decoration: underline;
   }
   .newsnav a {
-	font-family: "merriweather", serif;
-    color: #19204E;
+    font-family: 'Jost', sans-serif;
+    color: #231F20;
 	font-size: larger;
   }
   .newsnav {
@@ -112,13 +118,13 @@
   }
  
   .newsdiv {
-	background-color: white;
+	background-color: #EAEAEA;
   }
   .newsnav a:hover {
-	color: #DF1B3F;
+	color: #8E793E;
   }
   li a:hover {
-	color: #DF1B3F;
+	color: #8E793E;
 }
 .navhead {
   height: 8vh;
@@ -128,3 +134,30 @@ header {
   box-shadow: none;
  
 }
+
+.headernav .same {
+  color: #8E793E;
+}
+.border-bottom {
+  color: #EAEAEA;
+  font-size: larger;
+}
+.bb2 {
+
+    width: 155%;
+    
+}
+.field2 {
+  width: 100%;
+}
+.navend a:hover{
+  background-color: #231F20;
+  border: 
+
+}
+.uevents{
+  
+  font-size: larger;
+}
+
+

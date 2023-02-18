@@ -11,6 +11,7 @@
 .cartItemQuantity,
 .proceed {
   background: #f4f4f4;
+  color: #231F20;
 }
 .items {
   padding-right: 30px;
@@ -25,17 +26,17 @@ body {
   
   margin: 0;
   padding: 0;
-  font-family: "merriweather", serif;
+  font-family: 'Jost', sans-serif;
   justify-content: center;
   align-items: center;
 }
 a {
-  color: #19204E;
+  color: #231F20;
   text-decoration: none;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
-  color: #19204E;
+  color: #231F20;
   background-color: #111;
   border-color: transparent;
   box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
@@ -69,7 +70,7 @@ h1 {
   margin: 30px 6px;
 }
 h2 {
-  color: #19204E
+  color: #231F20;
   font-weight: 700;
   font-size: 2.5em;
 }
@@ -79,19 +80,23 @@ h3 {
 h5 {
   padding: 0;
   font-weight: bold;
-  color: #19204E;
+  color: #231F20;
 }
 p {
-  color: #19204E;
-  font-family: "merriweather", serif;
+  color: #EAEAEA;
+  font-family: 'Jost', sans-serif;
   margin: 0.6em 0;
+}
+.proceed p {
+  color: #231F20;
+
 }
 h1,
 h2,
 h4 {
   text-align: center;
   padding-top: 16px;
-  font-family: "merriweather", serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 700;
   font-style: italic;
 }
@@ -103,7 +108,7 @@ h4 {
  
 }
 .back a {
-    font-family: "merriweather", serif;
+  font-family: 'Jost', sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: larger;
@@ -115,7 +120,7 @@ h4 {
 
 .shopnow,
 .contact {
-    background-color: #19204E;
+    background-color: #231F20;
     color: white;
   padding: 10px 20px;
   font-size: 30px;
@@ -181,4 +186,8 @@ header {
     border-bottom: none;
     box-shadow: none;
    
+  }
+  .cartext {
+    color: #8E793E;
+
   }
