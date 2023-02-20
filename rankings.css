@@ -1,6 +1,8 @@
 body {
     background-color:#231F20;
     color: #AD974F;
+    width: 100%;
+    height: 100%;
   }
 
 .px-2 {
@@ -24,16 +26,9 @@ body {
     font-family: 'Jost', sans-serif;
     color: #AD974F;
 }
-.sign:hover {
-  background-color: #231F20;
-}
-.navend a:hover {
-  background-color: #231F20;
-}
 
-.navhead {
-    height: 8vh;
-}
+
+
 .ml2 {
     font-weight: 900;
     font-size: 2.5em;
@@ -48,37 +43,33 @@ body {
     letter-spacing: -2px;
   }
 
-  header {
-    margin-left: -5px;
-   
-  }
-  header .nav {
-    margin-right: 65px;
-  }
-  .navend {
-    margin-right: 25px;
-  }
+ 
+
  .topfooter {
     width: 100%;
    
     border-top: 2px solid #EAEAEA;
   }
 .eventnamebox {
-    height: 40vh;
-    width: 10vw;
+    height: 30vh;
     margin: 2.5vw 1.5vh;
+    margin-left: 3vw;
     background-color: #8E793E;
     border: 2px solid #EAEAEA;
+    overflow-x: scroll;
   }
+  
   .eventnamebox h3 {
     color: #EAEAEA;
-    font-size: 3vw;
+    font-size: 3vh;
+    width: 100%;
+    padding-right: 1vw;
   }
 
   .tableFixHead {
     overflow-y: auto; /* make the table scrollable if height is more than 200 px  */
-    height: 40vh;
-    width: 30vw;
+    height: 30vh;
+   
     margin: 1.5vw .5vh;
     border: 2px solid #EAEAEA;
   }
@@ -114,7 +105,7 @@ body {
 
   h3 {
         text-shadow: #8E793E 1px 1px;
-        font-size: larger;
+    
         font-family: 'Jost', sans-serif;
         background-color: #8E793E;
         color: #EAEAEA;
@@ -124,7 +115,8 @@ body {
     color: #EAEAEA;
   }
   .eventh3 {
-    margin-top: 35%;
+    margin-top: 10vh;
+   
   }
   .allthrow {
     overflow-y: auto;
@@ -150,9 +142,118 @@ body {
   .headernav .same {
     color: #8E793E;
  }
-
+.track {
+  width: 100%;
+}
  .track h1 {
   color: #231F20;
+  width: 100%;
+  word-break:break-all;
 
  }
 
+ .text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+
+/*NAV TESTING */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.headercontainer {
+  width: 100%;
+  margin-left: 0px;
+  color: #AD974F;
+}
+
+.nav-link {
+  border-color: #EAEAEA;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: larger;
+  color: #AD974F;
+}
+
+.same {
+  color: #8E793E;
+}
+.logoimg {
+  width: 7vw;
+  height: 7vh;
+ 
+}
+.nav-link:hover {
+  color: #EAEAEA;
+}
+.sign {
+  color: #EAEAEA;
+  border-color: #AD974F;
+  ont-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: larger;
+
+}
+header li a:hover {
+  color: #AD974F;
+  font-weight: bold;
+  font-size: larger;
+}
+.sign:hover {
+  color: #AD974F;
+  border-color: #EAEAEA;
+  ont-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: larger;
+
+}

@@ -3,6 +3,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	padding-bottom: 7vh;
+}
+body {
+	width: 100%;
+	height: 100%;
 }
 
 p, .psub {
@@ -33,7 +38,7 @@ p, .psub {
 }
 .btn {
 	width: fit-content;
-	font-size: 12px;
+	font-size: 1.2vh;
 	text-transform: uppercase;
 	outline: none;
 	cursor: pointer;
@@ -44,30 +49,32 @@ p, .psub {
 .btn_primary {
 	background-color: #AD974F;
 	color: #ffffff;
-	padding: 20px 60px;
+	padding: 2vh 7vw;
 }
 .btn_outline {
 	border: 2px solid #8E793E;
-	padding: 16px 48px;
+	padding: 2vh 3vw;
 }
 .btn_outline_secondary {
 	border: 1px solid #8E793E;
-	padding: 20px 40px;
-	margin-left: 20px;
+	padding: 2vh 3vw;
+	margin-left: 2vw;
 }
 .btn_outline:hover {
 	background-color: #f5f5f5;
 }
 #product {
-	width: 1148px;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 48px;
 	display: flex;
 }
 .product_images {
-	width: 657px;
-	min-width: 657px;
-	height: 683px;
+	width: 40vw;
+	min-width: 38vw;
+	height: 75vh;
+	margin-left: 3vw;
+	padding-right: 2vw;
 	background-color: #e1e1e1;
 	background: url("pics/linebracelets.jpeg");
 	background-repeat: no-repeat;
@@ -75,9 +82,11 @@ p, .psub {
 	background-position: center;
 }
 .product_images2 {
-	width: 657px;
-	min-width: 657px;
-	height: 683px;
+	width: 40vw;
+	min-width: 38vw;
+	height: 75vh;
+	margin-left: 3vw;
+	padding-right: 2vw;
 	background-color: #e1e1e1;
 	background: url("pics/shirt3.jpg");
 	background-repeat: no-repeat;
@@ -85,9 +94,11 @@ p, .psub {
 	background-position: center;
 }
 .product_images3 {
-	width: 657px;
-	min-width: 657px;
-	height: 683px;
+	width: 40vw;
+	min-width: 38vw;
+	height: 75vh;
+	margin-left: 3vw;
+	padding-right: 2vw;
 	background-color: #e1e1e1;
 	background: url("pics/pic2.jpg");
 	background-repeat: no-repeat;
@@ -96,7 +107,11 @@ p, .psub {
 }
 .product_details {
 	flex-grow: 1;
-	padding-left: 28px;
+	padding-left: 3vw;
+	width: 45vw;
+	min-width: 38vw;
+	height: 75vh;
+	margin-right: 2vw;
 }
 .product_details h4 {
 	font-size: 24px;
@@ -153,7 +168,7 @@ p, .psub {
 }
 a {
 	color: #AD974F;
-	font-size: 12px;
+	font-size: larger
 	text-transform: uppercase;
 }
 h6 {
@@ -201,4 +216,9 @@ h3 {
 .cta .material-symbols-outlined {
 	margin-right: 6px;
 }
-
+.shirtmain {
+	padding-bottom: 10vh;
+}
+.donatemain {
+	padding-bottom: 10vh;
+}

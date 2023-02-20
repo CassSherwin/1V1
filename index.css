@@ -1,6 +1,7 @@
 body {
     background-color:#231F20;
     color: #AD974F;
+    width: 100%;
   }
 
 .px-2 {
@@ -8,6 +9,8 @@ body {
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 800; 
+    align-content: center;
+      
 }
 .me-2 {
     border-color: #EAEAEA;
@@ -15,20 +18,23 @@ body {
     font-style: normal;
     font-weight: 800;
     color: #AD974F;
+   
 }
-.me-2:hover {
+.nav-link:hover {
   color: #EAEAEA;
 }
 .sign {
     background-color: #231F20;
-    border-color: #231F20;
+    border-color: #AD974F;
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 800;
-    color: #AD974F;
+    color: #EAEAEA;
 }
 .sign:hover {
-   color: #EAEAEA;
+   color: #AD974F;
+   border-color: #EAEAEA;
+
 }
 
 .ml2 {
@@ -37,7 +43,7 @@ body {
   }
   
   .ml2 .letter {
-    display: inline-block;
+   
     line-height: 1em;
     font-family: 'Jost', sans-serif;
     font-style: normal;
@@ -48,17 +54,16 @@ body {
   }
 
   header {
-    margin-left: -5px;
     border-bottom: 2px solid #EAEAEA;
     box-shadow: 2px 1px #8E793E;
     color: #AD974F;
   }
   header .nav {
-    margin-right: 65px;
     color: #AD974F;
   }
+
   .navend {
-    margin-right: 25px;
+   
     color: #AD974F;
     border: none;
   }
@@ -67,7 +72,7 @@ body {
   
  }
  .topfooter {
-    width: 100%;
+   
    
     border-top: 2px solid #EAEAEA;
   }
@@ -90,7 +95,7 @@ body {
     background-image: url("pics/menrace1.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    color: white;
+    color: #EAEAEA;
     padding: 2vw;
     margin: 1vw;
  }
@@ -98,7 +103,7 @@ body {
     background-image: url("pics/womenrace1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: #EAEAEA;
     padding: 2vw;
     margin: 1vw;
  }
@@ -106,7 +111,7 @@ body {
     background-image: url("pics/womenrace2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: #EAEAEA;
     padding: 2vw;
     margin: 1vw;
  }
@@ -114,7 +119,7 @@ body {
     background-image: url("pics/menrace2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: #EAEAEA;
     padding: 2vw;
     margin: 1vw;
  }
@@ -127,13 +132,13 @@ body {
  }
 .sec1 {
    border-bottom: 3px solid #EAEAEA;
-   height: 15vh;
+   height: 20%;
    box-shadow: 2px 1px #8E793E;
    
 }
  .sec2, .sec3, .sec4, .sec5, .sec6 {
     border-bottom: 3px solid #EAEAEA;
-    height: 15vh;
+    height: 20%;
     box-shadow: 2px 1px #8E793E;
     padding-top: 3vh;
  }
@@ -162,12 +167,9 @@ body {
 .logoimg {
    width: 7vw;
    height: 7vh;
-   padding-left: 2vh;
+  
 }
- .lateeventssec {
-    height: 50vh;
 
- }
  .newssec {
     background-color: #8E793E;
     height: 50vh;
@@ -178,11 +180,11 @@ body {
    font-family: 'Jost', sans-serif;
    font-style: normal;
    font-weight: 800;
-   color: white;
+   color: #EAEAEA;
    padding-bottom: 1.5vh;
  }
  .newsh1 {
-    color: white;
+    color: #EAEAEA;
     text-shadow: #8E793E 1px 1px;
  }
  .arttext {
@@ -196,7 +198,7 @@ body {
     padding-bottom: 2vh;
     padding-left: 2vw;
     padding-right: 2vw;
-    background-color: white;
+    background-color: #EAEAEA;
  }
  .newsbuttons {
     background-color: #231F20;
@@ -221,14 +223,11 @@ body {
     font-style: normal;
     font-weight: 800;
  }
- .heacernav {
-    color: #AD974F;
- }
 
- .headernav li a {
+ header li a {
    color: #AD974F;
  }
- .headernav li a:hover {
+ header li a:hover {
    color: #AD974F;
    font-weight: bold;
    font-size: larger;
@@ -336,7 +335,7 @@ body {
    margin-top: -1px;
    overflow-x: auto;
    text-align: center;
-   white-space: nowrap;
+   #EAEAEA-space: nowrap;
    -webkit-overflow-scrolling: touch;
  }
 .donatebtn {
@@ -345,7 +344,7 @@ body {
    font-family: 'Jost', sans-serif;
    font-style: normal;
    font-weight: 800;
-   color: white;
+   color: #EAEAEA;
 }
 .donatebtn:hover {
    border: none;
@@ -353,12 +352,88 @@ body {
    font-family: 'Jost', sans-serif;
    font-style: normal;
    font-weight: 800;
-   color: white;
+   color: #EAEAEA;
    background-color: #8E793E;
 }
-.headernav .same {
-   color: #8E793E;
+
+
+.container-fluid {
+  width: 100%;
+  height: 20%;
+
+}
+.ranksec table{
+  height: 75%;
 }
 
 
 
+/*NAV TESTING */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.headercontainer {
+  width: 100%;
+  margin-left: 0px;
+  color: #AD974F;
+}
+
+.nav-link {
+  border-color: #EAEAEA;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: larger;
+  color: #AD974F;
+}
+
+.same {
+  color: #8E793E;
+}
