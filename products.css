@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	padding-bottom: 7vh;
+	padding-bottom: 10vh;
 }
 body {
 	width: 100%;
@@ -49,7 +49,7 @@ p, .psub {
 .btn_primary {
 	background-color: #AD974F;
 	color: #ffffff;
-	padding: 2vh 7vw;
+	padding: 2vh 5.25vw;
 }
 .btn_outline {
 	border: 2px solid #8E793E;
@@ -221,4 +221,7 @@ h3 {
 }
 .donatemain {
 	padding-bottom: 10vh;
+}
+.footdiv  {
+	padding-top: 5vh;
 }

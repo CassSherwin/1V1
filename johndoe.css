@@ -90,7 +90,6 @@ h5 {
 
 }
 .donatebtn {
-	width: 15%;
 	background-color: #8E793E;
 	color: #EAEAEA;
 	margin-top: 2vh;
@@ -98,7 +97,6 @@ h5 {
 .donatebtn:hover {
 	background-color: #DF1B3F;
 	color: #8E793E;
-	width: 19%;
 }
 
 .biotext {
